@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-this project has two parts include:
-1.  converting files with formats XML and json to CSV 
-2. creating a dictionary to make csv file into specif style as a Dicom Anonymization profile
+This project has two parts, which are:
+1. Convert files with XML and json formats to CSV
+2. Create a dictionary to convert csv file to specific style as anonymous Dicom profile
   
 
 ## Methodology
