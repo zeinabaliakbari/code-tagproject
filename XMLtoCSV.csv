@@ -1,0 +1,1439 @@
+OperationType,DependencyValue,TagID,TagComments
+K,,00020013,Implementation Version Name
+K,,00080005,Specific Character Set
+K,,00080008,Image Type
+K,,00080012,Instance Creation Date
+K,,00080013,Instance Creation Time
+K,,00080016,SOP Class UID
+K,,00080018,SOP Instance UID
+K,,00080020,Study Date
+K,,00080021,Series Date
+K,,00080022,Acquisition Date
+K,,00080023,Content Date
+K,,0008002A,Acquisition DateTime
+K,,00080030,Study Time
+K,,00080031,Series Time
+K,,00080032,Acquisition Time
+K,,00080033,Content Time
+C10,,00080050,Accession Number
+K,,00080060,Modality
+K,,00080061,Modalities in Study
+K,,00080064,Conversion Type
+K,,00080068,Presentation Intent Type
+K,,00080070,Manufacturer
+K,,00080080,Institution Name
+K,,00080081,Institution Address
+Z,,00080090,Referring Physician's Name
+Z,,00081010,Station Name
+K,,00081030,Study Description
+K,,0008103E,Series Description
+K,,00081080,Admitting Diagnoses Description
+K,,00081090,Manufacturer's Model Name
+K,,00081110,Referenced Study Sequence
+K,,00081111,Referenced Performed Procedure Step Sequence
+K,,00081115,Referenced Series Sequence
+K,,0008113A,Referenced Waveform Sequence
+K,,00081140,Referenced Image Sequence
+K,,0008114A,Referenced Instance Sequence
+K,,00081150,Referenced SOP Class UID
+K,,00081155,Referenced SOP Instance UID
+K,,00081156,Definition Source Sequence
+K,,00081160,Referenced Frame Number
+K,,00081199,Referenced SOP Sequence
+K,,00081200,Studies Containing Other Referenced Instance Sequences
+K,,00081250,Related Series Sequence
+K,,00082112,Source Image Sequence
+K,,00082142,Start Trim
+K,,00082143,Stop Trim
+K,,00082144,Recommended Display Frame Rate
+K,,00082228,Primary Anatomic Structure Sequence
+K,,00082230,Primary Anatomic Structure Modifier Sequence
+K,,00083010,Irradiation Event UID
+K,,00083012,Radiopharmaceutical Administration Event UID
+K,,00089007,Frame Type
+K,,00089092,Referenced Image Evidence Sequence
+K,,00089121,Referenced Raw Data Sequence
+K,,00089124,Derivation Image Sequence
+K,,00089154,Source Image Evidence Sequence
+K,,00089205,Pixel Presentation
+K,,00089206,Volumetric Properties
+K,,00089207,Volume Based Calculation Technique
+K,,00089208,Complex Image Component
+K,,00089209,Acquisition Contrast
+K,,00089215,Derivation Code Sequence
+K,,00089237,Referenced Presentation State Sequence
+K,,00089410,Referenced Other Plane Sequence
+K,,00089458,Frame Display Sequence
+K,,00089459,Recommended Display Frame Rate in Float
+K,,00089460,Skip Frame Range Flag
+D,,00100010,Patient's Name
+D1,,00100020,Patient ID
+Z,,00100021,Issuer of Patient ID
+C8,,00100030,Patient's Birth Date
+K,,00100040,Patient's Sex
+K,,00100200,Quality Control Subject
+K,,00101010,Patient's Age
+K,,00101020,Patient's Size
+K,,00101030,Patient's Weight
+K,,00102000,Medical Alerts
+K,,00102110,Allergies
+K,,00102160,Ethnic Group
+K,,001021A0,Smoking Status
+K,,001021C0,Pregnancy Status
+K,,001021D0,Last Menstrual Date
+K,,00102203,PatientSexNeutered
+K,,00104000,Patient Comments
+K,,00109431,Examined Body Thickness
+K,,00160004,Exposure Time in Seconds
+K,,00160005,F-Number
+K,,00180010,Contrast/Bolus Agent
+K,,00180012,Contrast/Bolus Agent Sequence
+K,,00180013,Contrast/Bolus T1 Relaxivity
+K,,00180014,Contrast/Bolus Administration Route Sequence
+K,,00180015,Body Part Examined
+K,,00180020,Scanning Sequence
+K,,00180021,Sequence Variant
+K,,00180022,Scan Options
+K,,00180023,MR Acquisition Type
+K,,00180024,Sequence Name
+K,,00180025,Angio Flag
+K,,00180026,Intervention Drug Information Sequence
+K,,00180027,Intervention Drug Start Time
+K,,00180028,Intervention Drug Dose
+K,,00180029,Intervention Drug Code Sequence
+K,,00180031,Radiopharmaceutical
+K,,00180034,Intervention Drug Name
+K,,00180038,Intervention Status
+K,,00180040,Cine Rate
+K,,00180042,Initial Cine Run State
+K,,00180050,Slice Thickness
+K,,00180060,KVP
+K,,00180070,Counts Accumulated
+K,,00180071,Acquisition Termination Condition
+K,,00180072,Effective Duration
+K,,00180073,Acquisition Start Condition
+K,,00180074,Acquisition Start Condition Data
+K,,00180075,Acquisition Termination Condition Data
+K,,00180080,Repetition Time
+K,,00180081,Echo Time
+K,,00180082,Inversion Time
+K,,00180083,Number of Averages
+K,,00180084,Imaging Frequency
+K,,00180085,Imaged Nucleus
+K,,00180086,Echo Number(s)
+K,,00180087,Magnetic Field Strength
+K,,00180088,Spacing Between Slices
+K,,00180089,Number of Phase Encoding Steps
+K,,00180090,Data Collection Diameter
+K,,00180091,Echo Train Length
+K,,00180093,Percent Sampling
+K,,00180094,Percent Phase Field of View
+K,,00180095,Pixel Bandwidth
+Z,,00181000,Device Serial Number
+K,,00181006,Grid ID
+K,,00181012,Date of Secondary Capture
+K,,00181014,Time of Secondary Capture
+K,,00181020,SoftwareVersions
+K,,00181030,Protocol Name
+K,,00181041,Contrast/Bolus Volume
+K,,00181042,Contrast/Bolus Start Time
+K,,00181043,Contrast/Bolus Stop Time
+K,,00181044,Contrast/Bolus Total Dose
+K,,00181045,Syringe Counts
+K,,00181046,Contrast Flow Rate
+K,,00181047,Contrast Flow Duration
+K,,00181048,Contrast/Bolus Ingredient
+K,,00181049,Contrast/Bolus Ingredient Concentration
+K,,00181050,Spatial Resolution
+K,,00181060,Trigger Time
+K,,00181061,Trigger Source or Type
+K,,00181062,Nominal Interval
+K,,00181063,Frame Time
+K,,00181064,Cardiac Framing Type
+K,,00181065,Frame Time Vector
+K,,00181066,Frame Delay
+K,,00181067,Image Trigger Delay
+K,,00181068,Multiplex Group Time Offset
+K,,00181069,Trigger Time Offset
+K,,0018106A,Synchronization Trigger
+K,,0018106E,Trigger Sample Position
+K,,00181071,Radiopharmaceutical Volume
+K,,00181072,Radiopharmaceutical Start Time
+K,,00181073,Radiopharmaceutical Stop Time
+K,,00181074,Radionuclide Total Dose
+K,,00181075,Radionuclide Half Life
+K,,00181076,Radionuclide Positron Fraction
+K,,00181077,Radiopharmaceutical Specific Activity
+K,,00181078,Radiopharmaceutical Start DateTime
+K,,00181079,Radiopharmaceutical Stop DateTime
+K,,00181080,Beat Rejection Flag
+K,,00181081,Low R-R Value
+K,,00181082,High R-R Value
+K,,00181083,Intervals Acquired
+K,,00181084,Intervals Rejected
+K,,00181086,Skip Beats
+K,,00181088,Heart Rate
+K,,00181090,Cardiac Number of Images
+K,,00181094,Trigger Window
+K,,00181100,Reconstruction Diameter
+K,,00181110,Distance Source to Detector
+K,,00181111,Distance Source to Patient
+K,,00181114,Estimated Radiographic Magnification Factor
+K,,00181120,Gantry/Detector Tilt
+K,,00181121,Gantry/Detector Slew
+K,,00181130,Table Height
+K,,00181131,Table Traverse
+K,,00181134,Table Motion
+K,,00181135,Table Vertical Increment
+K,,00181136,Table Lateral Increment
+K,,00181137,Table Longitudinal Increment
+K,,00181138,Table Angle
+K,,0018113A,Table Type
+K,,00181140,Rotation Direction
+K,,00181142,Radial Position
+K,,00181143,Scan Arc
+K,,00181144,Angular Step
+K,,00181145,Center of Rotation Offset
+K,,00181147,Field of View Shape
+K,,00181149,Field of View Dimension(s)
+K,,00181150,Exposure Time
+K,,00181151,X-Ray Tube Current
+K,,00181152,Exposure
+K,,00181153,Exposure in µAs
+K,,00181154,Average Pulse Width
+K,,00181155,Radiation Setting
+K,,00181156,Rectification Type
+K,,0018115A,Radiation Mode
+K,,0018115E,Image and Fluoroscopy Area Dose Product
+K,,00181160,Filter Type
+K,,00181162,Intensifier Size
+K,,00181164,Imager Pixel Spacing
+K,,00181166,Grid
+K,,00181170,Generator Power
+K,,00181180,Collimator/grid Name
+K,,00181181,Collimator Type
+K,,00181182,Focal Distance
+K,,00181183,X Focus Center
+K,,00181184,Y Focus Center
+K,,00181190,Focal Spot(s)
+K,,00181191,Anode Target Material
+K,,001811A0,Body Part Thickness
+K,,001811A2,Compression Force
+K,,001811A3,Compression Pressure
+K,,001811A5,Compression Contact Area
+K,,00181210,Convolution Kernel
+K,,00181242,Actual Frame Duration
+K,,00181243,Count Rate
+K,,00181244,Preferred Playback Sequencing
+K,,00181250,Receive Coil Name
+K,,00181251,Transmit Coil Name
+K,,00181271,Water Equivalent Diameter
+K,,00181272,Water Equivalent Diameter Calculation Method Code Sequence
+K,,00181300,Scan Velocity
+K,,00181301,Whole Body Technique
+K,,00181302,Scan Length
+K,,00181310,Acquisition Matrix
+K,,00181312,In-plane Phase Encoding Direction
+K,,00181314,Flip Angle
+K,,00181315,Variable Flip Angle Flag
+K,,00181316,SAR
+K,,00181318,dB/dt
+K,,00181320,B1rms
+D,,00181400,Acquisition Device Processing Description
+K,,00181402,Cassette Orientation
+K,,00181403,Cassette Size
+K,,00181404,Exposures on Plate
+K,,00181405,Relative X-Ray Exposure
+K,,00181411,Exposure Index
+K,,00181412,Target Exposure Index
+K,,00181413,Deviation Index
+K,,00181450,Column Angulation
+K,,00181460,Tomo Layer Height
+K,,00181470,Tomo Angle
+K,,00181480,Tomo Time
+K,,00181490,Tomo Type
+K,,00181491,Tomo Class
+K,,00181495,Number of Tomosynthesis Source Images
+K,,00181500,Positioner Motion
+K,,00181508,Positioner Type
+K,,00181510,Positioner Primary Angle
+K,,00181511,Positioner Secondary Angle
+K,,00181520,Positioner Primary Angle Increment
+K,,00181521,Positioner Secondary Angle Increment
+K,,00181530,Detector Primary Angle
+K,,00181531,Detector Secondary Angle
+K,,00181600,Shutter Shape
+K,,00181602,Shutter Left Vertical Edge
+K,,00181604,Shutter Right Vertical Edge
+K,,00181606,Shutter Upper Horizontal Edge
+K,,00181608,Shutter Lower Horizontal Edge
+K,,00181610,Center of Circular Shutter
+K,,00181612,Radius of Circular Shutter
+K,,00181620,Vertices of the Polygonal Shutter
+K,,00181622,Shutter Presentation Value
+K,,00181623,Shutter Overlay Group
+K,,00181624,Shutter Presentation Color CIELab Value
+K,,00181630,Outline Shape Type
+K,,00181631,Outline Left Vertical Edge
+K,,00181632,Outline Right Vertical Edge
+K,,00181633,Outline Upper Horizontal Edge
+K,,00181634,Outline Lower Horizontal Edge
+K,,00181635,Center of Circular Outline
+K,,00181636,Diameter of Circular Outline
+K,,00181637,Number of Polygonal Vertices
+K,,00181638,Vertices of the Polygonal Outline
+K,,00181700,Collimator Shape
+K,,00181702,Collimator Left Vertical Edge
+K,,00181704,Collimator Right Vertical Edge
+K,,00181706,Collimator Upper Horizontal Edge
+K,,00181708,Collimator Lower Horizontal Edge
+K,,00181710,Center of Circular Collimator
+K,,00181712,Radius of Circular Collimator
+K,,00181720,Vertices of the Polygonal Collimator
+K,,00181800,Acquisition Time Synchronized
+K,,00181802,Time Distribution Protocol
+K,,00182001,Page Number Vector
+K,,00182002,Frame Label Vector
+K,,00182003,Frame Primary Angle Vector
+K,,00182004,Frame Secondary Angle Vector
+K,,00182005,Slice Location Vector
+K,,00182010,Nominal Scanned Pixel Spacing
+K,,00182020,Digitizing Device Transport Direction
+K,,00182030,Rotation of Scanned Film
+K,,00182041,Biopsy Target Sequence
+K,,00182042,Target UID
+K,,00182043,Localizing Cursor Position
+K,,00182044,Calculated Target Position
+K,,00182046,Displayed Z Value
+K,,00183100,IVUS Acquisition
+K,,00183101,IVUS Pullback Rate
+K,,00183102,IVUS Gated Rate
+K,,00183103,IVUS Pullback Start Frame Number
+K,,00183104,IVUS Pullback Stop Frame Number
+K,,00183105,Lesion Number
+K,,00185000,Output Power
+K,,00185012,Focus Depth
+K,,00185022,Mechanical Index
+K,,00185024,Bone Thermal Index
+K,,00185026,Cranial Thermal Index
+K,,00185027,Soft Tissue Thermal Index
+K,,00185028,Soft Tissue-focus Thermal Index
+K,,00185029,Soft Tissue-surface Thermal Index
+K,,00185050,Depth of Scan Field
+K,,00185100,Patient Position
+K,,00185101,View Position
+K,,00186000,Sensitivity
+K,,00186011,Sequence of Ultrasound Regions
+K,,00186012,Region Spatial Format
+K,,00186014,Region Data Type
+K,,00186016,Region Flags
+K,,00186018,Region Location Min X0
+K,,0018601A,Region Location Min Y0
+K,,0018601C,Region Location Max X1
+K,,0018601E,Region Location Max Y1
+K,,00186020,Reference Pixel X0
+K,,00186022,Reference Pixel Y0
+K,,00186024,Physical Units X Direction
+K,,00186026,Physical Units Y Direction
+K,,00186028,Reference Pixel Physical Value X
+K,,0018602A,Reference Pixel Physical Value Y
+K,,0018602C,Physical Delta X
+K,,0018602E,Physical Delta Y
+K,,00186030,Transducer Frequency
+K,,00186031,Transducer Type
+K,,00186032,Pulse Repetition Frequency
+K,,00186034,Doppler Correction Angle
+K,,00186036,Steering Angle
+K,,00186039,Doppler Sample Volume X Position
+K,,0018603B,Doppler Sample Volume Y Position
+K,,0018603D,TM-Line Position X0
+K,,0018603F,TM-Line Position Y0
+K,,00186041,TM-Line Position X1
+K,,00186043,TM-Line Position Y1
+K,,00186044,Pixel Component Organization
+K,,00186046,Pixel Component Mask
+K,,00186048,Pixel Component Range Start
+K,,0018604A,Pixel Component Range Stop
+K,,0018604C,Pixel Component Physical Units
+K,,0018604E,Pixel Component Data Type
+K,,00186050,Number of Table Break Points
+K,,00186052,Table of X Break Points
+K,,00186054,Table of Y Break Points
+K,,00186056,Number of Table Entries
+K,,00186058,Table of Pixel Values
+K,,0018605A,Table of Parameter Values
+K,,00186060,R Wave Time Vector
+K,,00187000,Detector Conditions Nominal Flag
+K,,00187001,Detector Temperature
+K,,00187004,Detector Type
+K,,00187005,Detector Configuration
+D,,0018700A,Detector ID
+Z,,0018700C,Date of Last Detector Calibration
+Z,,0018700E,Time of Last Detector Calibration
+K,,00187010,Exposures on Detector Since Last Calibration
+K,,00187011,Exposures on Detector Since Manufactured
+K,,00187012,Detector Time Since Last Exposure
+K,,00187014,Detector Active Time
+K,,00187016,Detector Activation Offset From Exposure
+K,,0018701A,Detector Binning
+K,,00187020,Detector Element Physical Size
+K,,00187022,Detector Element Spacing
+K,,00187024,Detector Active Shape
+K,,00187026,Detector Active Dimension(s)
+K,,00187028,Detector Active Origin
+K,,0018702A,Detector Manufacturer Name
+K,,00187030,Field of View Origin
+K,,00187032,Field of View Rotation
+K,,00187034,Field of View Horizontal Flip
+K,,00187036,Pixel Data Area Origin Relative To FOV
+K,,00187038,Pixel Data Area Rotation Angle Relative To FOV
+K,,00187040,Grid Absorbing Material
+K,,00187041,Grid Spacing Material
+K,,00187042,Grid Thickness
+K,,00187044,Grid Pitch
+K,,00187046,Grid Aspect Ratio
+K,,00187048,Grid Period
+K,,0018704C,Grid Focal Distance
+K,,00187050,Filter Material
+K,,00187052,Filter Thickness Minimum
+K,,00187054,Filter Thickness Maximum
+K,,00187056,Filter Beam Path Length Minimum
+K,,00187058,Filter Beam Path Length Maximum
+K,,00187060,Exposure Control Mode
+K,,00187064,Exposure Status
+K,,00187065,Phototimer Setting
+K,,00188150,Exposure Time in µS
+K,,00188151,X-Ray Tube Current in µA
+K,,00189004,Content Qualification
+K,,00189005,Pulse Sequence Name
+K,,00189006,MR Imaging Modifier Sequence
+K,,00189008,Echo Pulse Sequence
+K,,00189009,Inversion Recovery
+K,,00189010,Flow Compensation
+K,,00189011,Multiple Spin Echo
+K,,00189012,Multi-planar Excitation
+K,,00189014,Phase Contrast
+K,,00189015,Time of Flight Contrast
+K,,00189016,Spoiling
+K,,00189017,Steady State Pulse Sequence
+K,,00189018,Echo Planar Pulse Sequence
+K,,00189019,Tag Angle First Axis
+K,,00189020,Magnetization Transfer
+K,,00189021,T2 Preparation
+K,,00189022,Blood Signal Nulling
+K,,00189024,Saturation Recovery
+K,,00189025,Spectrally Selected Suppression
+K,,00189026,Spectrally Selected Excitation
+K,,00189027,Spatial Pre-saturation
+K,,00189028,Tagging
+K,,00189029,Oversampling Phase
+K,,00189030,Tag Spacing First Dimension
+K,,00189032,Geometry of k-Space Traversal
+K,,00189033,Segmented k-Space Traversal
+K,,00189034,Rectilinear Phase Encode Reordering
+K,,00189035,Tag Thickness
+K,,00189036,Partial Fourier Direction
+K,,00189037,Cardiac Synchronization Technique
+K,,00189041,Receive Coil Manufacturer Name
+K,,00189042,MR Receive Coil Sequence
+K,,00189043,Receive Coil Type
+K,,00189044,Quadrature Receive Coil
+K,,00189045,Multi-Coil Definition Sequence
+K,,00189046,Multi-Coil Configuration
+K,,00189047,Multi-Coil Element Name
+K,,00189048,Multi-Coil Element Used
+K,,00189049,MR Transmit Coil Sequence
+K,,00189050,Transmit Coil Manufacturer Name
+K,,00189051,Transmit Coil Type
+K,,00189052,Spectral Width
+K,,00189053,Chemical Shift Reference
+K,,00189054,Volume Localization Technique
+K,,00189058,MR Acquisition Frequency Encoding Steps
+K,,00189059,De-coupling
+K,,00189060,De-coupled Nucleus
+K,,00189061,De-coupling Frequency
+K,,00189062,De-coupling Method
+K,,00189063,De-coupling Chemical Shift Reference
+K,,00189064,k-space Filtering
+K,,00189065,Time Domain Filtering
+K,,00189066,Number of Zero Fills
+K,,00189067,Baseline Correction
+K,,00189069,Parallel Reduction Factor In-plane
+K,,00189070,Cardiac R-R Interval Specified
+K,,00189073,Acquisition Duration
+K,,00189074,Frame Acquisition DateTime
+K,,00189075,Diffusion Directionality
+K,,00189076,Diffusion Gradient Direction Sequence
+K,,00189077,Parallel Acquisition
+K,,00189078,Parallel Acquisition Technique
+K,,00189079,Inversion Times
+K,,00189080,Metabolite Map Description
+K,,00189081,Partial Fourier
+K,,00189082,Effective Echo Time
+K,,00189084,Chemical Shift Sequence
+K,,00189085,Cardiac Signal Source
+K,,00189087,Diffusion b-value
+K,,00189089,Diffusion Gradient Orientation
+K,,00189090,Velocity Encoding Direction
+K,,00189091,Velocity Encoding Minimum Value
+K,,00189092,Velocity Encoding Acquisition Sequence
+K,,00189093,Number of k-Space Trajectories
+K,,00189094,Coverage of k-Space
+K,,00189095,Spectroscopy Acquisition Phase Rows
+K,,00189098,Transmitter Frequency
+K,,00189100,Resonant Nucleus
+K,,00189101,Frequency Correction
+K,,00189103,MR Spectroscopy FOV/Geometry Sequence
+K,,00189104,Slab Thickness
+K,,00189105,Slab Orientation
+K,,00189106,Mid Slab Position
+K,,00189107,MR Spatial Saturation Sequence
+K,,00189112,MR Timing and Related Parameters Sequence
+K,,00189114,MR Echo Sequence
+K,,00189115,MR Modifier Sequence
+K,,00189117,MR Diffusion Sequence
+K,,00189118,Cardiac Synchronization Sequence
+K,,00189119,MR Averages Sequence
+K,,00189125,MR FOV/Geometry Sequence
+K,,00189126,Volume Localization Sequence
+K,,00189127,Spectroscopy Acquisition Data Columns
+K,,00189147,Diffusion Anisotropy Type
+K,,00189151,Frame Reference DateTime
+K,,00189152,MR Metabolite Map Sequence
+K,,00189155,Parallel Reduction Factor out-of-plane
+K,,00189159,Spectroscopy Acquisition Out-of-plane Phase Steps
+K,,00189168,Parallel Reduction Factor Second In-plane
+K,,00189169,Cardiac Beat Rejection Technique
+K,,00189170,Respiratory Motion Compensation Technique
+K,,00189171,Respiratory Signal Source
+K,,00189172,Bulk Motion Compensation Technique
+K,,00189173,Bulk Motion Signal Source
+K,,00189174,Applicable Safety Standard Agency
+K,,00189176,Operating Mode Sequence
+K,,00189177,Operating Mode Type
+K,,00189178,Operating Mode
+K,,00189179,Specific Absorption Rate Definition
+K,,00189180,Gradient Output Type
+K,,00189181,Specific Absorption Rate Value
+K,,00189182,Gradient Output
+K,,00189183,Flow Compensation Direction
+K,,00189184,Tagging Delay
+K,,00189195,Chemical Shift Minimum Integration Limit in Hz
+K,,00189196,Chemical Shift Maximum Integration Limit in Hz
+K,,00189197,MR Velocity Encoding Sequence
+K,,00189198,First Order Phase Correction
+K,,00189199,Water Referenced Phase Correction
+K,,00189200,MR Spectroscopy Acquisition Type
+K,,00189214,Respiratory Cycle Position
+K,,00189217,Velocity Encoding Maximum Value
+K,,00189218,Tag Spacing Second Dimension
+K,,00189219,Tag Angle Second Axis
+K,,00189220,Frame Acquisition Duration
+K,,00189226,MR Image Frame Type Sequence
+K,,00189227,MR Spectroscopy Frame Type Sequence
+K,,00189231,MR Acquisition Phase Encoding Steps in-plane
+K,,00189232,MR Acquisition Phase Encoding Steps out-of-plane
+K,,00189234,Spectroscopy Acquisition Phase Columns
+K,,00189236,Cardiac Cycle Position
+K,,00189239,Specific Absorption Rate Sequence
+K,,00189240,RF Echo Train Length
+K,,00189241,Gradient Echo Train Length
+K,,00189250,Arterial Spin Labeling Contrast
+Z,,00189251,MR Arterial Spin Labeling Sequence
+K,,00189253,ASL Slab Number
+K,,00189254,ASL Slab Thickness
+K,,00189255,ASL Slab Orientation
+K,,00189256,ASL Mid Slab Position
+K,,00189257,ASL Context
+K,,00189258,ASL Pulse Train Duration
+K,,00189259,ASL Crusher Flag
+K,,0018925A,ASL Crusher Flow Limit
+D,,0018925B,ASL Crusher Description
+K,,0018925C,ASL Bolus Cut-off Flag
+K,,0018925D,ASL Bolus Cut-off Timing Sequence
+K,,0018925E,ASL Bolus Cut-off Technique
+K,,0018925F,ASL Bolus Cut-off Delay Time
+K,,00189260,ASL Slab Sequence
+K,,00189295,Chemical Shift Minimum Integration Limit in ppm
+K,,00189296,Chemical Shift Maximum Integration Limit in ppm
+K,,00189297,Water Reference Acquisition
+K,,00189298,Echo Peak Position
+K,,00189301,CT Acquisition Type Sequence
+K,,00189302,Acquisition Type
+K,,00189303,Tube Angle
+K,,00189304,CT Acquisition Details Sequence
+K,,00189305,Revolution Time
+K,,00189306,Single Collimation Width
+K,,00189307,Total Collimation Width
+K,,00189308,CT Table Dynamics Sequence
+K,,00189309,Table Speed
+K,,00189310,Table Feed per Rotation
+K,,00189311,Spiral Pitch Factor
+K,,00189312,CT Geometry Sequence
+K,,00189313,Data Collection Center (Patient)
+K,,00189314,CT Reconstruction Sequence
+K,,00189315,Reconstruction Algorithm
+K,,00189316,Convolution Kernel Group
+K,,00189317,Reconstruction Field of View
+K,,00189318,Reconstruction Target Center (Patient)
+K,,00189319,Reconstruction Angle
+K,,00189320,Image Filter
+K,,00189321,CT Exposure Sequence
+K,,00189322,Reconstruction Pixel Spacing
+K,,00189323,Exposure Modulation Type
+K,,00189324,Estimated Dose Saving
+K,,00189325,CT X-Ray Details Sequence
+K,,00189326,CT Position Sequence
+K,,00189327,Table Position
+K,,00189328,Exposure Time in ms
+K,,00189329,CT Image Frame Type Sequence
+K,,00189330,X-Ray Tube Current in mA
+K,,00189332,Exposure in mAs
+K,,00189333,Constant Volume Flag
+K,,00189334,Fluoroscopy Flag
+K,,00189335,Distance Source to Data Collection Center
+K,,00189337,Contrast/Bolus Agent Number
+K,,00189338,Contrast/Bolus Ingredient Code Sequence
+K,,00189340,Contrast Administration Profile Sequence
+K,,00189341,Contrast/Bolus Usage Sequence
+K,,00189342,Contrast/Bolus Agent Administered
+K,,00189343,Contrast/Bolus Agent Detected
+K,,00189344,Contrast/Bolus Agent Phase
+K,,00189345,CTDIvol
+K,,00189346,CTDI Phantom Type Code Sequence
+K,,00189351,Calcium Scoring Mass Factor Patient
+K,,00189352,Calcium Scoring Mass Factor Device
+K,,00189353,Energy Weighting Factor
+K,,00189360,CT Additional X-Ray Source Sequence
+K,,00189361,Multi-energy CT Acquisition
+K,,00189362,Multi-energy CT Acquisition Sequence
+K,,00189363,Multi-energy CT Processing Sequence
+K,,00189364,Multi-energy CT Characteristics Sequence
+K,,00189365,Multi-energy CT X-Ray Source Sequence
+K,,00189366,X-Ray Source Index
+D,,00189367,X-Ray Source ID
+K,,00189368,Multi-energy Source Technique
+K,,00189369,Source Start DateTime
+K,,0018936A,Source End DateTime
+K,,0018936B,Switching Phase Number
+K,,0018936C,Switching Phase Nominal Duration
+K,,0018936D,Switching Phase Transition Duration
+K,,0018936E,Effective Bin Energy
+K,,0018936F,Multi-energy CT X-Ray Detector Sequence
+K,,00189370,X-Ray Detector Index
+D,,00189371,X-Ray Detector ID
+K,,00189372,Multi-energy Detector Type
+K,,00189373,X-Ray Detector Label
+K,,00189374,Nominal Max Energy
+K,,00189375,Nominal Min Energy
+K,,00189376,Referenced X-Ray Detector Index
+K,,00189377,Referenced X-Ray Source Index
+K,,00189378,Referenced Path Index
+K,,00189379,Multi-energy CT Path Sequence
+K,,0018937A,Multi-energy CT Path Index
+K,,0018937C,Monoenergetic Energy Equivalent
+K,,0018937E,Decomposition Method
+K,,00189380,Decomposition Algorithm Identification Sequence
+K,,00189381,Decomposition Material Sequence
+K,,00189382,Material Attenuation Sequence
+K,,00189383,Photon Energy
+K,,00189384,X-Ray Mass Attenuation Coefficient
+K,,00189401,Projection Pixel Calibration Sequence
+K,,00189402,Distance Source to Isocenter
+K,,00189403,Distance Object to Table Top
+K,,00189404,Object Pixel Spacing in Center of Beam
+K,,00189405,Positioner Position Sequence
+K,,00189406,Table Position Sequence
+K,,00189407,Collimator Shape Sequence
+K,,00189410,Planes in Acquisition
+K,,00189412,XA/XRF Frame Characteristics Sequence
+K,,00189417,Frame Acquisition Sequence
+K,,00189420,X-Ray Receptor Type
+K,,00189425,Contrast/Bolus Ingredient Opaque
+K,,00189426,Distance Receptor Plane to Detector Housing
+K,,00189427,Intensifier Active Shape
+K,,00189428,Intensifier Active Dimension(s)
+K,,00189429,Physical Detector Size
+K,,00189430,Position of Isocenter Projection
+K,,00189432,Field of View Sequence
+K,,00189434,Exposure Control Sensing Regions Sequence
+K,,00189435,Exposure Control Sensing Region Shape
+K,,00189436,Exposure Control Sensing Region Left Vertical Edge
+K,,00189437,Exposure Control Sensing Region Right Vertical Edge
+K,,00189438,Exposure Control Sensing Region Upper Horizontal Edge
+K,,00189439,Exposure Control Sensing Region Lower Horizontal Edge
+K,,00189440,Center of Circular Exposure Control Sensing Region
+K,,00189441,Radius of Circular Exposure Control Sensing Region
+K,,00189442,Vertices of the Polygonal Exposure Control Sensing Region
+K,,00189447,Column Angulation (Patient)
+K,,00189449,Beam Angle
+K,,00189451,Frame Detector Parameters Sequence
+K,,00189452,Calculated Anatomy Thickness
+K,,00189455,Calibration Sequence
+K,,00189456,Object Thickness Sequence
+K,,00189457,Plane Identification
+K,,00189461,Field of View Dimension(s) in Float
+K,,00189462,Isocenter Reference System Sequence
+K,,00189463,Positioner Isocenter Primary Angle
+K,,00189464,Positioner Isocenter Secondary Angle
+K,,00189465,Positioner Isocenter Detector Rotation Angle
+K,,00189466,Table X Position to Isocenter
+K,,00189467,Table Y Position to Isocenter
+K,,00189468,Table Z Position to Isocenter
+K,,00189469,Table Horizontal Rotation Angle
+K,,00189470,Table Head Tilt Angle
+K,,00189471,Table Cradle Tilt Angle
+K,,00189472,Frame Display Shutter Sequence
+K,,00189473,Acquired Image Area Dose Product
+K,,00189474,C-arm Positioner Tabletop Relationship
+K,,00189476,X-Ray Geometry Sequence
+K,,00189477,Irradiation Event Identification Sequence
+K,,00189504,X-Ray 3D Frame Type Sequence
+K,,00189506,Contributing Sources Sequence
+K,,00189507,X-Ray 3D Acquisition Sequence
+K,,00189508,Primary Positioner Scan Arc
+K,,00189509,Secondary Positioner Scan Arc
+K,,00189510,Primary Positioner Scan Start Angle
+K,,00189511,Secondary Positioner Scan Start Angle
+K,,00189514,Primary Positioner Increment
+K,,00189515,Secondary Positioner Increment
+K,,00189516,Start Acquisition DateTime
+K,,00189517,End Acquisition DateTime
+K,,00189518,Primary Positioner Increment Sign
+K,,00189519,Secondary Positioner Increment Sign
+K,,00189527,Algorithm Type
+K,,00189530,X-Ray 3D Reconstruction Sequence
+K,,00189538,Per Projection Acquisition Sequence
+K,,00189541,Detector Position Sequence
+K,,00189542,X-Ray Acquisition Dose Sequence
+K,,00189543,X-Ray Source Isocenter Primary Angle
+K,,00189544,X-Ray Source Isocenter Secondary Angle
+K,,00189545,Breast Support Isocenter Primary Angle
+K,,00189546,Breast Support Isocenter Secondary Angle
+K,,00189547,Breast Support X Position to Isocenter
+K,,00189548,Breast Support Y Position to Isocenter
+K,,00189549,Breast Support Z Position to Isocenter
+K,,00189550,Detector Isocenter Primary Angle
+K,,00189551,Detector Isocenter Secondary Angle
+K,,00189552,Detector X Position to Isocenter
+K,,00189553,Detector Y Position to Isocenter
+K,,00189554,Detector Z Position to Isocenter
+K,,00189555,X-Ray Grid Sequence
+K,,00189556,X-Ray Filter Sequence
+K,,00189557,Detector Active Area TLHC Position
+K,,00189558,Detector Active Area Orientation
+K,,00189559,Positioner Primary Angle Direction
+K,,00189601,Diffusion b-matrix Sequence
+K,,00189602,Diffusion b-value XX
+K,,00189603,Diffusion b-value XY
+K,,00189604,Diffusion b-value XZ
+K,,00189605,Diffusion b-value YY
+K,,00189606,Diffusion b-value YZ
+K,,00189607,Diffusion b-value ZZ
+K,,00189621,Functional MR Sequence
+K,,00189622,Functional Settling Phase Frames Present
+K,,00189623,Functional Sync Pulse
+K,,00189624,Settling Phase Frame
+K,,00189701,Decay Correction DateTime
+K,,00189715,Start Density Threshold
+K,,00189716,Start Relative Density Difference Threshold
+K,,00189717,Start Cardiac Trigger Count Threshold
+K,,00189718,Start Respiratory Trigger Count Threshold
+K,,00189719,Termination Counts Threshold
+K,,00189720,Termination Density Threshold
+K,,00189721,Termination Relative Density Threshold
+K,,00189722,Termination Time Threshold
+K,,00189723,Termination Cardiac Trigger Count Threshold
+K,,00189724,Termination Respiratory Trigger Count Threshold
+K,,00189725,Detector Geometry
+K,,00189726,Transverse Detector Separation
+K,,00189727,Axial Detector Dimension
+K,,00189729,Radiopharmaceutical Agent Number
+K,,00189732,PET Frame Acquisition Sequence
+K,,00189733,PET Detector Motion Details Sequence
+K,,00189734,PET Table Dynamics Sequence
+K,,00189735,PET Position Sequence
+K,,00189736,PET Frame Correction Factors Sequence
+K,,00189737,Radiopharmaceutical Usage Sequence
+K,,00189738,Attenuation Correction Source
+K,,00189739,Number of Iterations
+K,,00189740,Number of Subsets
+K,,00189749,PET Reconstruction Sequence
+K,,00189751,PET Frame Type Sequence
+K,,00189755,Time of Flight Information Used
+K,,00189756,Reconstruction Type
+K,,00189758,Decay Corrected
+K,,00189759,Attenuation Corrected
+K,,00189760,Scatter Corrected
+K,,00189761,Dead Time Corrected
+K,,00189762,Gantry Motion Corrected
+K,,00189763,Patient Motion Corrected
+K,,00189764,Count Loss Normalization Corrected
+K,,00189765,Randoms Corrected
+K,,00189766,Non-uniform Radial Sampling Corrected
+K,,00189767,Sensitivity Calibrated
+K,,00189768,Detector Normalization Correction
+K,,00189769,Iterative Reconstruction Method
+K,,00189770,Attenuation Correction Temporal Relationship
+K,,00189771,Patient Physiological State Sequence
+K,,00189772,Patient Physiological State Code Sequence
+K,,00189801,Depth(s) of Focus
+K,,00189803,Excluded Intervals Sequence
+K,,00189804,Exclusion Start DateTime
+K,,00189805,Exclusion Duration
+K,,00189806,US Image Description Sequence
+K,,00189807,Image Data Type Sequence
+K,,00189808,Data Type
+K,,0018980B,Aliased Data Type
+K,,0018980C,Position Measuring Device Used
+K,,00189810,Zero Velocity Pixel Value
+K,,00189904,Offset Distance
+K,,00189905,Offset Direction
+K,,00189912,Model Specification Sequence
+K,,00189914,Instruction Sequence
+K,,00189915,Instruction Index
+K,,00189918,Instruction Performed Flag
+K,,0018991B,Patient Positioning Instruction Sequence
+K,,0018991D,Positioning Landmark Sequence
+K,,0018991E,Target Frame of Reference UID
+K,,00189920,Acquisition Protocol Element Sequence
+K,,00189921,Protocol Element Number
+Z,,00189922,Protocol Element Name
+K,,00189930,Acquisition Motion
+K,,00189931,Acquisition Start Location Sequence
+K,,00189932,Acquisition End Location Sequence
+K,,00189933,Reconstruction Protocol Element Specification Sequence
+K,,00189934,Reconstruction Protocol Element Sequence
+K,,00189935,Storage Protocol Element Specification Sequence
+K,,00189936,Storage Protocol Element Sequence
+K,,00189938,Source Acquisition Protocol Element Number
+K,,00189939,Source Acquisition Beam Number
+K,,0018993A,Source Reconstruction Protocol Element Number
+K,,0018993B,Reconstruction Start Location Sequence
+K,,0018993C,Reconstruction End Location Sequence
+K,,0018993D,Reconstruction Algorithm Sequence
+K,,0018993E,Reconstruction Target Center Location Sequence
+K,,00189942,CTDIvol Notification Trigger
+K,,00189943,DLP Notification Trigger
+K,,00189944,Auto KVP Selection Type
+K,,00189945,Auto KVP Upper Bound
+K,,00189946,Auto KVP Lower Bound
+K,,00189947,Protocol Defined Patient Position
+K,,0018A001,Contributing Equipment Sequence
+K,SIEMENS MR HEADER,0019yy0A,Number Of Images In Mosaic
+K,SIEMENS MR HEADER,0019yy0B,Slice Measurement Duration
+K,SIEMENS MR HEADER,0019yy0C,Diffusion b- value
+K,SIEMENS MR HEADER,0019yy0D,Diffusion Directionality
+K,SIEMENS MR HEADER,0019yy0E,Diffusion Gradient Direction
+K,SIEMENS MR HEADER,0019yy0F,Gradient Mode
+K,GEMS_ACQU_01,0019yy1E,Display field of view
+K,SIEMENS MR HEADER,0019yy27,Diffusion b-matrix
+K,SIEMENS MR HEADER,0019yy28,Bandwidth Per Pixel Phase Encode
+K,SIEMENS MR HEADER,0019yy29,Mosaic Ref Acq Times
+K,GEMS_ACQU_01,0019yy5A,Acquisition Duration
+K,GEMS_ACQU_01,0019yy7D,Second echo
+K,GEMS_ACQU_01,0019yy7E,Number of echoes
+K,GEMS_ACQU_01,0019yy9C,Pulse Sequence Name
+K,GEMS_ACQU_01,0019yy9E,Internal Pulse Sequence Name
+K,GEMS_ACQU_01,0019yyDF,DTI diffusion directions
+K,GEMS_ACQU_01,0019yyE0,DTI diffusion directions
+K,,0020000D,Study Instance UID
+K,,0020000E,Series Instance UID
+Z,,00200010,Study ID
+K,,00200011,Series Number
+K,,00200012,Acquisition Number
+K,,00200013,Instance Number
+K,,00200019,Item Number
+K,,00200020,Patient Orientation
+K,,00200030,Image Position
+K,,00200032,Image Position (Patient)
+K,,00200035,Image Orientation
+K,,00200037,Image Orientation (Patient)
+K,,00200050,Location
+K,,00200052,Frame of Reference UID
+K,,00200060,Laterality
+K,,00200062,Image Laterality
+K,,00200100,Temporal Position Identifier
+K,,00200105,Number of Temporal Positions
+K,,00200110,Temporal Resolution
+K,,00200200,Synchronization Frame of Reference UID
+K,,00200242,SOP Instance UID of Concatenation Source
+K,,00201002,Images in Acquisition
+K,,00201040,Position Reference Indicator
+K,,00201041,Slice Location
+K,,00204000,ImageComments
+K,,00209056,Stack ID
+K,,00209057,In-Stack Position Number
+K,,00209071,Frame Anatomy Sequence
+K,,00209072,Frame Laterality
+K,,00209111,Frame Content Sequence
+K,,00209113,Plane Position Sequence
+K,,00209116,Plane Orientation Sequence
+K,,00209128,Temporal Position Index
+K,,00209153,Nominal Cardiac Trigger Delay Time
+K,,00209154,Nominal Cardiac Trigger Time Prior To R-Peak
+K,,00209155,Actual Cardiac Trigger Time Prior To R-Peak
+K,,00209156,Frame Acquisition Number
+K,,00209157,Dimension Index Values
+K,,00209161,Concatenation UID
+K,,00209162,In-concatenation Number
+K,,00209163,In-concatenation Total Number
+K,,00209164,Dimension Organization UID
+K,,00209165,Dimension Index Pointer
+K,,00209167,Functional Group Pointer
+K,,00209213,Dimension Index Private Creator
+K,,00209221,Dimension Organization Sequence
+K,,00209222,Dimension Index Sequence
+K,,00209228,Concatenation Frame Offset Number
+K,,00209238,Functional Group Private Creator
+K,,00209241,Nominal Percentage of Cardiac Phase
+K,,00209245,Nominal Percentage of Respiratory Phase
+K,,00209246,Starting Respiratory Amplitude
+K,,00209247,Starting Respiratory Phase
+K,,00209248,Ending Respiratory Amplitude
+K,,00209249,Ending Respiratory Phase
+K,,00209250,Respiratory Trigger Type
+K,,00209251,R-R Interval Time Nominal
+K,,00209252,Actual Cardiac Trigger Delay Time
+K,,00209253,Respiratory Synchronization Sequence
+K,,00209254,Respiratory Interval Time
+K,,00209255,Nominal Respiratory Trigger Delay Time
+K,,00209256,Respiratory Trigger Delay Threshold
+K,,00209257,Actual Respiratory Trigger Delay Time
+K,,00209301,Image Position (Volume)
+K,,00209302,Image Orientation (Volume)
+K,,00209307,Ultrasound Acquisition Geometry
+K,,00209308,Apex Position
+K,,00209309,Volume to Transducer Mapping Matrix
+K,,0020930A,Volume to Table Mapping Matrix
+K,,0020930B,Volume to Transducer Relationship
+K,,0020930C,Patient Frame of Reference Source
+K,,0020930D,Temporal Position Time Offset
+K,,0020930E,Plane Position (Volume) Sequence
+K,,0020930F,Plane Orientation (Volume) Sequence
+K,,00209310,Temporal Position Sequence
+K,,00209311,Dimension Organization Type
+K,,00209312,Volume Frame of Reference UID
+K,,00209313,Table Frame of Reference UID
+K,,00209450,Patient Orientation in Frame Sequence
+K,,00209453,Frame Label
+K,,00209518,Acquisition Index
+K,,00209529,Contributing SOP Instances Reference Sequence
+K,,00209536,Reconstruction Index
+K,SIEMENS MR SDI 02,0021yy01,Number Of Images In Mosaic
+K,SIEMENS MR SDI 02,0021yy03,Slice Measurement Duration
+K,SIEMENS MR SDS 01,0021yy04,Slice Array Concatenations
+K,SIEMENS MR SDI 02,0021yy04,Time After Start
+K,SIEMENS MR SDI 02,0021yy05,B_value
+K,SIEMENS MR SDS 01,0021yy19,MR Phoenix Protocol
+K,SIEMENS MR SDI 02,0021yy21,Diffusion Directionality
+K,SIEMENS MR SDI 02,0021yy23,B_matrix
+K,SIEMENS MR SDI 02,0021yy46,Diffusion Gradient Direction
+K,SIEMENS MR SDS 01,0021yy49,DICOM Acquisition Contrast
+K,SIEMENS MR SDI 02,0021yy4F,Ima Coil String
+K,SIEMENS MR SDI 02,0021yy56,PAT Mode Text
+K,SIEMENS MR SDI 02,0021yy58,Acquisition Matrix Text
+K,SIEMENS MR SDS 01,0021yy5A,Scanning Sequence
+K,GEMS_RELA_01,0021yy5A,Diffusion direction
+K,SIEMENS MR SDS 01,0021yy5B,Sequence Variant
+K,SIEMENS MR SDS 01,0021yy5C,Measurement Options
+K,SIEMENS MR SDS 01,0021yy5D,Scan Region Position Iso
+K,SIEMENS MR SDS 01,0021yy5E,Field Of View Text
+K,SIEMENS MR SDS 01,0021yy5F,Rel Table Position Text
+K,SIEMENS MR SDI 02,0021yy75,Image Type 4MF
+K,SIEMENS MR SDI 02,0021yy77,Sequence Info
+K,SIEMENS MR SDI 02,0021yy79,Image Type Visible
+K,SIEMENS MR SDI 02,0021yy79,Distortion Correction Type
+K,SIEMENS MR SDI 02,0021yy8B,Slice Position Text
+K,SIEMENS MR SDS 01,0021yyFE,Series Data Sequence
+K,SIEMENS MR SDI 02,0021yyFE,Image Data Sequence
+K,,00221612,Derivation Algorithm Sequence
+K,GEMS_IMAG_01,0027yy32,Pulse Sequence
+K,,00280002,Samples per Pixel
+K,,00280003,Samples per Pixel Used
+K,,00280004,Photometric Interpretation
+K,,00280006,Planar Configuration
+K,,00280008,Number of Frames
+K,,00280009,Frame Increment Pointer
+K,,00280010,Rows
+K,,00280011,Columns
+K,,00280014,Ultrasound Color Data Present
+K,,00280030,Pixel Spacing
+K,,00280031,Zoom Factor
+K,,00280032,Zoom Center
+K,,00280034,Pixel Aspect Ratio
+K,,00280051,Corrected Image
+K,,00280100,Bits Allocated
+K,,00280101,Bits Stored
+K,,00280102,High Bit
+K,,00280103,Pixel Representation
+K,,00280106,Smallest Image Pixel Value
+K,,00280107,Largest Image Pixel Value
+K,,00280108,Smallest Pixel Value in Series
+K,,00280109,Largest Pixel Value in Series
+K,,00280120,Pixel Padding Value
+K,,00280121,Pixel Padding Range Limit
+K,,00280122,Float Pixel Padding Value
+K,,00280123,Double Float Pixel Padding Value
+K,,00280124,Float Pixel Padding Range Limit
+K,,00280125,Double Float Pixel Padding Range Limit
+K,,00280300,Quality Control Image
+K,,00280301,Burned In Annotation
+K,,00280302,Recognizable Visual Features
+K,,00280303,Longitudinal Temporal Information Modified
+K,,00280304,Referenced Color Palette Instance UID
+K,,00280A02,Pixel Spacing Calibration Type
+K,,00281040,Pixel Intensity Relationship
+K,,00281041,Pixel Intensity Relationship Sign
+K,,00281050,Window Center
+K,,00281051,Window Width
+K,,00281052,Rescale Intercept
+K,,00281053,Rescale Slope
+K,,00281054,Rescale Type
+K,,00281055,Window Center & Width Explanation
+K,,00281056,VOI LUT Function
+K,,00281090,Recommended Viewing Mode
+K,,00281101,Red Palette Color Lookup Table Descriptor
+K,,00281102,Green Palette Color Lookup Table Descriptor
+K,,00281103,Blue Palette Color Lookup Table Descriptor
+K,,00281104,Alpha Palette Color Lookup Table Descriptor
+K,,00281199,Palette Color Lookup Table UID
+K,,00281201,Red Palette Color Lookup Table Data
+K,,00281202,Green Palette Color Lookup Table Data
+K,,00281203,Blue Palette Color Lookup Table Data
+K,,00281204,Alpha Palette Color Lookup Table Data
+K,,00281221,Segmented Red Palette Color Lookup Table Data
+K,,00281222,Segmented Green Palette Color Lookup Table Data
+K,,00281223,Segmented Blue Palette Color Lookup Table Data
+K,,00281224,Segmented Alpha Palette Color Lookup Table Data
+K,,00281230,Stored Value Color Range Sequence
+K,,00281231,Minimum Stored Value Mapped
+K,,00281232,Maximum Stored Value Mapped
+K,,00281300,Breast Implant Present
+K,,00281350,Partial View
+K,,0028135A,Spatial Locations Preserved
+K,,00281401,Data Frame Assignment Sequence
+K,,00281402,Data Path Assignment
+K,,00281403,Bits Mapped to Color Lookup Table
+K,,00281404,Blending LUT 1 Sequence
+K,,00281405,Blending LUT 1 Transfer Function
+K,,00281406,Blending Weight Constant
+K,,00281407,Blending Lookup Table Descriptor
+K,,00281408,Blending Lookup Table Data
+K,,0028140B,Enhanced Palette Color Lookup Table Sequence
+K,,0028140C,Blending LUT 2 Sequence
+K,,0028140D,Blending LUT 2 Transfer Function
+K,,0028140E,Data Path ID
+K,,0028140F,RGB LUT Transfer Function
+K,,00281410,Alpha LUT Transfer Function
+K,,00282000,ICC Profile
+K,,00282002,Color Space
+K,,00282110,Lossy Image Compression
+K,,00282112,Lossy Image Compression Ratio
+K,,00282114,Lossy Image Compression Method
+K,,00283000,Modality LUT Sequence
+K,,00283002,LUT Descriptor
+K,,00283003,LUT Explanation
+K,,00283004,Modality LUT Type
+K,,00283006,LUT Data
+K,,00283010,VOI LUT Sequence
+K,,00283110,Softcopy VOI LUT Sequence
+K,,00286010,Representative Frame Number
+K,,00286020,Frame Numbers of Interest (FOI)
+K,,00286023,Frame of Interest Type
+K,,00286040,R Wave Pointer
+K,,00286100,Mask Subtraction Sequence
+K,,00286101,Mask Operation
+K,,00286102,Applicable Frame Range
+K,,00286110,Mask Frame Numbers
+K,,00286112,Contrast Frame Averaging
+K,,00286114,Mask Sub-pixel Shift
+K,,00286120,TID Offset
+K,,00287021,White Point Flag
+K,,00289001,Data Point Rows
+K,,00289002,Data Point Columns
+K,,00289003,Signal Domain Columns
+K,,00289108,Data Representation
+K,,00289110,Pixel Measures Sequence
+K,,00289132,Frame VOI LUT Sequence
+K,,00289145,Pixel Value Transformation Sequence
+K,,00289235,Signal Domain Rows
+K,,00289411,Display Filter Percentage
+K,,00289415,Frame Pixel Shift Sequence
+K,,00289416,Subtraction Item ID
+K,,00289422,Pixel Intensity Relationship LUT Sequence
+K,,00289443,Frame Pixel Data Properties Sequence
+K,,00289444,Geometrical Properties
+K,,00289445,Geometric Maximum Distortion
+K,,00289446,Image Processing Applied
+K,,00289454,Mask Selection Mode
+K,,00289474,LUT Function
+K,,00289478,Mask Visibility Percentage
+K,,00289501,Pixel Shift Sequence
+K,,00289502,Region Pixel Shift Sequence
+K,,00289503,Vertices of the Region
+K,,00289505,Multi-frame Presentation Sequence
+K,,00289506,Pixel Shift Frame Range
+K,,00289507,LUT Frame Range
+K,,00289520,Image to Equipment Mapping Matrix
+K,,00289537,Equipment Coordinate System Identification
+K,SIEMENS CSA HEADER,0029yy08,CSA Image Header Type
+K,SIEMENS CSA NON-IMAGE,0029yy08,CSA Data Type
+K,SIEMENS CSA HEADER,0029yy18,CSA Series Header Type
+K,,00321070,Requested Contrast Agent
+K,,00400301,Total Number of Exposures
+K,,00400302,Entrance Dose
+K,,0040030E,Exposure Dose Sequence
+K,,00400314,Half Value Layer
+K,,00400316,Organ Dose
+Z,,00402016,Placer Order Number / Imaging Service Request
+Z,,00402017,Filler Order Number / Imaging Service Request
+K,,00404033,Output Information Sequence
+K,,00408302,Entrance Dose in mGy
+K,,00408303,Entrance Dose Derivation
+K,,00409096,Real World Value Mapping Sequence
+K,,00409211,Real World Value Last Value Mapped
+K,,00409212,Real World Value LUT Data
+K,,00409213,Double Float Real World Value Last Value Mapped
+K,,00409214,Double Float Real World Value First Value Mapped
+K,,00409216,Real World Value First Value Mapped
+K,,00409224,Real World Value Intercept
+K,,00409225,Real World Value Slope
+D,,0040A027,Verifying Organization
+K,,0040A043,Concept Name Code Sequence
+K,,0040A124,UID
+K,,0040A136,Referenced Frame Numbers
+K,,0040A168,Concept Code Sequence
+K,,0040A170,Purpose of Reference Code Sequence
+K,GEMS_PARM_01,0043yy39,Diffusion b-value
+K,GEMS_PARM_01,0043yy81,GE Coil Name
+K,,00480120,Palette Color Lookup Table Sequence
+K,,00480301,Pixel Origin Interpretation
+K,,00500004,Calibration Image
+K,SIEMENS MR HEADER,0051yy0A,Meas Duration
+K,SIEMENS MR HEADER,0051yy0B,Acquisition Matrix
+K,SIEMENS MR HEADER,0051yy0C,Field Of View
+K,SIEMENS MR HEADER,0051yy0D,Slice Position
+K,SIEMENS MR HEADER,0051yy12,Rel Table Position
+K,SIEMENS MR HEADER,0051yy13,Positive PCS Directions
+K,,00520001,Contrast/Bolus Ingredient Percent by Volume
+K,,00540010,Energy Window Vector
+K,,00540011,Number of Energy Windows
+K,,00540012,Energy Window Information Sequence
+K,,00540013,Energy Window Range Sequence
+K,,00540014,Energy Window Lower Limit
+K,,00540015,Energy Window Upper Limit
+K,,00540016,Radiopharmaceutical Information Sequence
+K,,00540017,Residual Syringe Counts
+Z,,00540018,Energy Window Name
+K,,00540020,Detector Vector
+K,,00540021,Number of Detectors
+K,,00540022,Detector Information Sequence
+K,,00540030,Phase Vector
+K,,00540031,Number of Phases
+K,,00540032,Phase Information Sequence
+K,,00540033,Number of Frames in Phase
+K,,00540036,Phase Delay
+K,,00540038,Pause Between Frames
+K,,00540039,Phase Description
+K,,00540050,Rotation Vector
+K,,00540051,Number of Rotations
+K,,00540052,Rotation Information Sequence
+K,,00540053,Number of Frames in Rotation
+K,,00540060,R-R Interval Vector
+K,,00540061,Number of R-R Intervals
+K,,00540062,Gated Information Sequence
+K,,00540063,Data Information Sequence
+K,,00540070,Time Slot Vector
+K,,00540071,Number of Time Slots
+K,,00540072,Time Slot Information Sequence
+K,,00540073,Time Slot Time
+K,,00540080,Slice Vector
+K,,00540081,Number of Slices
+K,,00540090,Angular View Vector
+K,,00540100,Time Slice Vector
+K,,00540101,Number of Time Slices
+K,,00540200,Start Angle
+K,,00540202,Type of Detector Motion
+K,,00540210,Trigger Vector
+K,,00540211,Number of Triggers in Phase
+K,,00540220,View Code Sequence
+K,,00540222,View Modifier Code Sequence
+K,,00540300,Radionuclide Code Sequence
+K,,00540302,Administration Route Code Sequence
+K,,00540304,Radiopharmaceutical Code Sequence
+K,,00540306,Calibration Data Sequence
+K,,00540308,Energy Window Number
+K,,00540410,Patient Orientation Code Sequence
+K,,00540412,Patient Orientation Modifier Code Sequence
+K,,00540500,Slice Progression Direction
+K,,00540501,Scan Progression Direction
+K,,00541000,Series Type
+K,,00541001,Units
+K,,00541002,Counts Source
+K,,00541004,Reprojection Method
+K,,00541006,SUV Type
+K,,00541100,Randoms Correction Method
+K,,00541101,Attenuation Correction Method
+K,,00541102,Decay Correction
+K,,00541103,Reconstruction Method
+K,,00541105,Scatter Correction Method
+K,,00541200,Axial Acceptance
+K,,00541201,Axial Mash
+K,,00541202,Transverse Mash
+K,,00541203,Detector Element Size
+K,,00541210,Coincidence Window Width
+K,,00541220,Secondary Counts Type
+K,,00541300,Frame Reference Time
+K,,00541310,Primary (Prompts) Counts Accumulated
+K,,00541311,Secondary Counts Accumulated
+K,,00541320,Slice Sensitivity Factor
+K,,00541321,Decay Factor
+K,,00541322,Dose Calibration Factor
+K,,00541323,Scatter Fraction Factor
+K,,00541324,Dead Time Factor
+K,,00541330,Image Index
+K,,00603000,Histogram Sequence
+K,,00603002,Histogram Number of Bins
+K,,00603004,Histogram First Bin Value
+K,,00603006,Histogram Last Bin Value
+K,,00603008,Histogram Bin Width
+K,,00603020,Histogram Data
+K,,00620001,Segmentation Type
+K,,00620002,Segment Sequence
+K,,00620003,Segmented Property Category Code Sequence
+K,,00620004,Segment Number
+D,,00620005,Segment Label
+K,,00620008,Segment Algorithm Type
+D,,00620009,Segment Algorithm Name
+K,,0062000A,Segment Identification Sequence
+K,,0062000B,Referenced Segment Number
+K,,0062000C,Recommended Display Grayscale Value
+K,,0062000D,Recommended Display CIELab Value
+K,,00620011,Segmented Property Type Modifier Code Sequence
+K,,00620021,Tracking UID
+K,,00660001,Number of Surfaces
+K,,00660002,Surface Sequence
+K,,00660003,Surface Number
+K,,00660009,Surface Processing
+K,,0066000A,Surface Processing Ratio
+K,,0066000C,Recommended Presentation Opacity
+K,,0066000D,Recommended Presentation Type
+K,,0066000E,Finite Volume
+K,,00660010,Manifold
+K,,00660011,Surface Points Sequence
+K,,00660012,Surface Points Normals Sequence
+K,,00660013,Surface Mesh Primitives Sequence
+K,,00660015,Number of Surface Points
+K,,00660016,Point Coordinates Data
+K,,00660017,Point Position Accuracy
+K,,00660018,Average Point Distance
+K,,00660019,Maximum Point Distance
+K,,0066001A,Points Bounding Box Coordinates
+K,,0066001B,Axis of Rotation
+K,,0066001C,Center of Rotation
+K,,0066001E,Number of Vectors
+K,,0066001F,Vector Dimensionality
+K,,00660020,Vector Accuracy
+K,,00660021,Vector Coordinate Data
+K,,00660026,Triangle Strip Sequence
+K,,00660027,Triangle Fan Sequence
+K,,00660028,Line Sequence
+K,,0066002A,Surface Count
+K,,0066002B,Referenced Surface Sequence
+K,,0066002C,Referenced Surface Number
+K,,0066002D,Segment Surface Generation Algorithm Identification Sequence
+K,,0066002E,Segment Surface Source instance Sequence
+K,,00660034,Facet Sequence
+K,,00660035,Surface Processing Algorithm Identification Sequence
+K,,00660037,Recommended Point Radius
+K,,00660038,Recommended Line Thickness
+K,,00660040,Long Primitive Point Index List
+K,,00660041,Long Triangle Point Index List
+K,,00660042,Long Edge Point Index List
+K,,00660043,Long Vertex Point Index List
+K,,00700001,Graphic Annotation Sequence
+K,,00700002,Graphic Layer
+K,,00700003,Bounding Box Annotation Units
+K,,00700004,Anchor Point Annotation Units
+K,,00700005,Graphic Annotation Units
+K,,00700009,Graphic Object Sequence
+K,,00700010,Bounding Box Top Left Hand Corner
+K,,00700011,Bounding Box Bottom Right Hand Corner
+K,,00700012,Bounding Box Text Horizontal Justification
+K,,00700014,Anchor Point
+K,,00700015,Anchor Point Visibility
+K,,00700020,Graphic Dimensions
+K,,00700021,Number of Graphic Points
+K,,00700022,Graphic Data
+K,,00700023,Graphic Type
+K,,00700024,Graphic Filled
+K,,00700041,Image Horizontal Flip
+K,,00700042,Image Rotation
+K,,00700052,Displayed Area Top Left Hand Corner
+K,,00700053,Displayed Area Bottom Right Hand Corner
+K,,0070005A,Displayed Area Selection Sequence
+K,,00700060,Graphic Layer Sequence
+K,,00700062,Graphic Layer Order
+K,,00700066,Graphic Layer Recommended Display Grayscale Value
+K,,00700067,Graphic Layer Recommended Display RGB Value
+K,,00700082,Presentation Creation Date
+K,,00700083,Presentation Creation Time
+K,,00700100,Presentation Size Mode
+K,,00700101,Presentation Pixel Spacing
+K,,00700102,Presentation Pixel Aspect Ratio
+K,,00700103,Presentation Pixel Magnification Ratio
+K,,00700207,Graphic Group Label
+K,,00700209,Compound Graphic Sequence
+K,,00700226,Compound Graphic Instance ID
+K,,00700227,Font Name
+K,,00700228,Font Name Type
+K,,00700229,CSS Font Name
+K,,00700230,Rotation Angle
+K,,00700231,Text Style Sequence
+K,,00700232,Line Style Sequence
+K,,00700233,Fill Style Sequence
+K,,00700234,Graphic Group Sequence
+K,,00700241,Text Color CIELab Value
+K,,00700242,Horizontal Alignment
+K,,00700243,Vertical Alignment
+K,,00700244,Shadow Style
+K,,00700245,Shadow Offset X
+K,,00700246,Shadow Offset Y
+K,,00700247,Shadow Color CIELab Value
+K,,00700248,Underlined
+K,,00700249,Bold
+K,,00700250,Italic
+K,,00700251,Pattern On Color CIELab Value
+K,,00700252,Pattern Off Color CIELab Value
+K,,00700253,Line Thickness
+K,,00700254,Line Dashing Style
+K,,00700255,Line Pattern
+K,,00700256,Fill Pattern
+K,,00700257,Fill Mode
+K,,00700258,Shadow Opacity
+K,,00700261,Gap Length
+K,,00700262,Diameter of Visibility
+K,,00700273,Rotation Point
+K,,00700274,Tick Alignment
+K,,00700278,Show Tick Label
+K,,00700279,Tick Label Alignment
+K,,00700282,Compound Graphic Units
+K,,00700284,Pattern On Opacity
+K,,00700285,Pattern Off Opacity
+K,,00700287,Major Ticks Sequence
+K,,00700288,Tick Position
+K,,00700289,Tick Label
+K,,00700294,Compound Graphic Type
+K,,00700295,Graphic Group ID
+K,,00700308,Registration Sequence
+K,,00700309,Matrix Registration Sequence
+K,,0070030A,Matrix Sequence
+K,,0070030C,Frame of Reference Transformation Matrix Type
+K,,0070030D,Registration Type Code Sequence
+K,,0070031A,Fiducial UID
+K,,0070031B,Referenced Fiducial UID
+K,,00700401,Graphic Layer Recommended Display CIELab Value
+K,,00700402,Blending Sequence
+K,,00700403,Relative Opacity
+K,,00700404,Referenced Spatial Registration Sequence
+K,,00700405,Blending Position
+K,,00701101,Presentation Display Collection UID
+K,,00701102,Presentation Sequence Collection UID
+K,,00701202,Presentation Input Type
+K,,00741212,Performed Processing Parameters Sequence
+K,,00820032,Constraint Type
+K,,00820034,Constraint Value Sequence
+K,,00820035,Recommended Default Value Sequence
+K,,00820036,Constraint Violation Significance
+K,,00820038,Modifiable Constraint Flag
+K,Philips Imaging DD 001,2001yy03,Diffusion B-Factor
+K,Philips Imaging DD 001,2001yy04,Diffusion Direction
+K,Philips MR Imaging DD 001,2005yy0D,Scale Intercept
+K,Philips MR Imaging DD 001,2005yy0E,Scale Slope
+K,Philips MR Imaging DD 001,2005yyB0,Diffusion Direction RL
+K,Philips MR Imaging DD 001,2005yyB1,Diffusion Direction AP
+K,Philips MR Imaging DD 001,2005yyB2,Diffusion Direction FH
+K,,20500010,Presentation LUT Sequence
+K,,20500020,Presentation LUT Shape
+K,,2200000F,Allow Lossy Compression
+K,,3002000A,Reported Values Origin
+K,,3002000C,RT Image Plane
+K,,3002000D,X-Ray Image Receptor Translation
+K,,3002000E,X-Ray Image Receptor Angle
+K,,30020010,RT Image Orientation
+K,,30020011,Image Plane Pixel Spacing
+K,,30020012,RT Image Position
+K,,30020026,RT Image SID
+K,,30020028,Source to Reference Object Distance
+K,,30020029,Fraction Number
+K,,30020030,Exposure Sequence
+K,,30040012,Dose Value
+Z,,30060008,Structure Set Date
+K,,30060010,Referenced Frame of Reference Sequence
+K,,30060012,RT Referenced Study Sequence
+K,,30060014,RT Referenced Series Sequence
+K,,30060016,Contour Image Sequence
+K,,30060020,Structure Set ROI Sequence
+K,,30060022,ROI Number
+K,,30060024,Referenced Frame of Reference UID
+K,,30060026,ROI Name
+K,,3006002A,ROI Display Color
+K,,3006002C,ROI Volume
+K,,30060030,RT Related ROI Sequence
+K,,30060033,RT ROI Relationship
+K,,30060036,ROI Generation Algorithm
+K,,30060037,ROI Derivation Algorithm Identification Sequence
+K,,30060038,ROI Generation Description
+K,,30060039,ROI Contour Sequence
+K,,30060040,Contour Sequence
+K,,30060042,Contour Geometric Type
+K,,30060044,Contour Slab Thickness
+K,,30060045,Contour Offset Vector
+K,,30060046,Number of Contour Points
+K,,30060048,Contour Number
+K,,30060049,Attached Contours
+K,,30060050,Contour Data
+K,,30060080,RT ROI Observations Sequence
+K,,30060082,Observation Number
+K,,30060084,Referenced ROI Number
+K,,30060085,ROI Observation Label
+K,,30060086,RT ROI Identification Code Sequence
+K,,300600A0,Related RT ROI Observations Sequence
+K,,300600A4,RT ROI Interpreted Type
+Z,,300600A6,ROI Interpreter
+K,,300600B0,ROI Physical Properties Sequence
+K,,300600B2,ROI Physical Property
+K,,300600B4,ROI Physical Property Value
+K,,300600B6,ROI Elemental Composition Sequence
+K,,300600B7,ROI Elemental Composition Atomic Number
+K,,300600B8,ROI Elemental Composition Atomic Mass Fraction
+K,,300600C2,Related Frame of Reference UID
+K,,300600C6,Frame of Reference Transformation Matrix
+K,,300A0013,Dose Reference UID
+K,,300A00C0,Beam Number
+Z,,300A00E1,Material ID
+K,,300A0128,Table Top Vertical Position
+K,,300A0129,Table Top Longitudinal Position
+K,,300A012A,Table Top Lateral Position
+K,,300A0420,General Accessory Sequence
+K,,52009229,Shared Functional Groups Sequence
+K,,52009230,Per-frame Functional Groups Sequence
+K,,56000020,Spectroscopy Data
+K,,60xx0010,Overlay Rows
+K,,60xx0011,Overlay Columns
+K,,60xx0015,Number of Frames in Overlay
+K,,60xx0040,Overlay Type
+K,,60xx0045,Overlay Subtype
+K,,60xx0050,Overlay Origin
+K,,60xx0051,Image Frame Origin
+K,,60xx0100,Overlay Bits Allocated
+K,,60xx0102,Overlay Bit Position
+K,,60xx1001,Overlay Activation Layer
+K,,60xx1301,ROI Area
+K,,60xx1302,ROI Mean
+K,,60xx1303,ROI Standard Deviation
+K,,60xx3000,Overlay Data
+K,,7FE00008,Float Pixel Data
+K,,7FE00009,Double Float Pixel Data
+K,,7FE00010,Pixel Data

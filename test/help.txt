@@ -1,0 +1,122 @@
+cd path/to/your/project
+python -m venv mynameofproject
+.\mynameofproject\Scripts\activate
+pip install package_name
+python exercises\exercise1.py
+
+
+
+
+import csv
+import pandas as pd
+import xml.etree.ElementTree as ET
+import pandas as pd
+from pandas import json_normalize
+import json
+import os  
+from pathlib import Path
+
+def xml_to_csv(xml_file, csv_file):
+    tree = ET.parse(xml_file)
+    root = tree.getroot()
+
+    # Assuming each record is represented by an element named 'record'
+    records = root.findall('tag')
+
+    with open(csv_file, 'w', newline='') as csvfile:
+        csv_writer = csv.writer(csvfile)
+
+        # Write header based on all unique XML element names
+        header = list(set(element.tag for record in records for element in record))
+        csv_writer.writerow(header)
+
+        for record in records:
+            # Extract data from XML elements and write to CSV rows
+            row = [record.find(element).text if record.find(element) is not None else '' for element in header]
+            csv_writer.writerow(row)
+            
+def json_to_csv(json_file_path, csv_file_path):
+     
+
+    # Read JSON data from the file
+    with open(json_file_path) as f:
+        json_data = json.load(f)
+
+    # Flatten the nested "Minimization" array
+    minimization_df = json_normalize(json_data, 'Minimization', errors='ignore')
+
+    # Remove the "Minimization" key from the original data
+    json_data.pop('Minimization', None)
+
+    # Convert the remaining attributes to a DataFrame
+    main_df = pd.DataFrame([json_data])
+
+    # Concatenate the DataFrames
+    result_df = pd.concat([main_df, minimization_df], axis=1) 
+    result_df.to_csv(csv_file_path, index=False)         
+            
+def replace_in_csv(csv_file):
+    # Specify the words you want to replace and their replacements
+    input_file = csv_file
+    file_name, file_extension = os.path.splitext(os.path.basename(csv_file))
+    output_file = file_name + "_replaced" + file_extension
+ 
+    word_replacements = { 
+    "C2" : "",
+    "CD" : "",
+    "CG" : "",
+    "D"  : "@remove()",
+    "D1" : "",
+    "DPI": "@hashptid(@SITEID,PatientID,10)",
+    "DPN": "@integer(this,ptid,8)",
+    "K"  : "@keep()",
+    "SD" : "@hashdate(this,PatientID)",
+    "U2" : "@hashuid(@UIDROOT, this)",
+    "X"  : "",
+    "Z"  : "@empty()"
+    }
+
+
+#OperationType
+
+    # Open the input CSV file for reading
+    with open(input_file, 'r') as infile:
+        # Create a CSV reader
+        reader = csv.reader(infile)
+        
+        # Read the header if your CSV has one
+        header = next(reader, None)
+        
+        # Open the output CSV file for writing
+        with open(output_file, 'w', newline='') as outfile:
+            # Create a CSV writer
+            writer = csv.writer(outfile)
+            
+            # Write the header if it exists
+            if header:
+                writer.writerow(header)
+            
+            # Iterate through each row in the input CSV
+            for row in reader:
+                # Perform word replacements in each cell
+                updated_row = [word_replacements.get(cell, cell) for cell in row]
+                
+                # Write the updated row to the output CSV
+                writer.writerow(updated_row)
+    
+    
+if __name__ == "__main__":
+     xml_file='PPA.xml'
+     json_file_path='shs.json'
+     
+     xml_to_csv(xml_file, 'XMLtoCSV.csv')
+     json_to_csv(json_file_path, 'JSONtoCSV.csv')
+     
+     replace_in_csv('XMLtoCSV.csv')
+     replace_in_csv('JSONtoCSV.csv')
+ 
+cd path/to/your/project
+python -m venv mynameofproject
+.\mynameofproject\Scripts\activate
+pip install package_name
+python exercises\exercise1.py
