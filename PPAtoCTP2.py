@@ -78,13 +78,12 @@ def separate_id(id_value):
 def replace_in_csv(csv_file, column_to_replace):
     # Specify the words you want to replace and their replacements
     word_replacements = { 
-        "D": "@remove()",
-        "DPI": "@hashptid(@SITEID,PatientID,10)",
-        "DPN": "@integer(this,ptid,8)",
-        "K": "@keep()",
-        "SD": "@hashdate(this,PatientID)",
-        "U2": "@hashuid(@UIDROOT, this)",
-        "Z": "@empty()"
+        "rm": "Remove()",
+        "In": "Insert()",
+        "de": "Delete()",
+        "re": "Replace()",
+        "ed": "Edit()",
+
     }
     file_name, file_extension = os.path.splitext(os.path.basename(csv_file))
     output_file = file_name + "_replaced" + file_extension
@@ -101,38 +100,32 @@ def replace_in_csv(csv_file, column_to_replace):
     file1_sorted = file.sort_values(by=sort_column)
     file1_sorted.to_csv(csv_file, index=False) ### input file will be sorted 
     df=file1_sorted
-    df['TagComments'] = df['TagComments'].apply(lambda x: ''.join(x.split()))
-    df['TagComments'] = df['TagComments'].apply(lambda x: x.replace("'s", '') if "'s" in x else x)
+    df['Comments'] = df['Comments'].apply(lambda x: ''.join(x.split()))
+    df['Comments'] = df['Comments'].apply(lambda x: x.replace("'s", '') if "'s" in x else x)
 
-
+  # Filter rows based on the condition
+  
     df['Elem'] = df[ sort_column].astype(str).str[-4:]
     df['Group'] = df[ sort_column].astype(str).str[:-4]
-    # Filter rows based on the condition
-    condition = (df["Elem"] == 'yy00') | (df["Elem"] == '00yy') #***** non-valid records of PrivateCreator
-    df = df[~condition]
-    df.loc[:, 'Elem'] = df['Elem'].apply(lambda x: x.replace('yy', '00') if 'yy' in x else x)
-    
-    
-    #df['Group'] = df['Group'].astype(str).replace(r'^0+', '', regex=True)
-    #df['Elem'] = df['Elem'].astype(str).replace(r'^0+', '', regex=True)
+  
+
     new_columns = {
     'Group': 'Group',
-    'DependencyValue': 'PrivateCreator',
+    'DependencyValue': 'DependencyValue',
     'Elem': 'Elem',
-    'TagComments': 'Name',
-    'OperationType': 'Action',
+    'Comments': 'Name',
+    'Operation': 'Action',
    
     }
     df = df.rename(columns=new_columns)[list(new_columns.values())]
     
     
-   ## desired_column_order = ['DependencyValue','TagComments', 'OperationType','TagID' ]
-    # Reorder the columns in the first file
-   ## file1_reordered = file1_sorted[desired_column_order]
+ 
+   ## file1_reordered = a middle file
     df.to_csv('file1_reordered.csv', index=False)
 
     # OperationType
-    input_file = 'file1_reordered.csv' ##****** I will delete this intermidate file 
+    input_file = 'file1_reordered.csv' 
 
    
 #OperationType
@@ -171,8 +164,8 @@ def replace_in_csv(csv_file, column_to_replace):
 
 if __name__ == "__main__":
     
-    xml_file='teamplayMRclinicalUKER_xml.xml'
-    json_file_path='SHS-base-profile_PL_json.json'
+    xml_file='yourxmlfile.xml'
+    json_file_path='yourjsonfile.json'
      
     xml_to_csv(xml_file, 'XMLtoCSV.csv')
     json_to_csv(json_file_path, 'JSONtoCSV.csv')
