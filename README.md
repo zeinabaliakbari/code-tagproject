@@ -4,7 +4,7 @@
 
 This project has two parts, which are:
 1. Convert files with XML and json formats to CSV
-2. Create a dictionary to convert csv file to specific style as anonymous Dicom profile
+2. Create a dictionary to convert csv file to specific style 
   
 
 ## Methodology
@@ -14,7 +14,7 @@ Convert XML to CSV :
 
 Reads an XML file .
 Converts the XML data to a CSV file (XMLtoCSV.csv).
-Filters out specific columns ('DependencyID') and saves the cleaned CSV file.
+Filters out specific columns and saves the cleaned CSV file.
 
 Convert JSON to CSV:
 
